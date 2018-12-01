@@ -1,5 +1,5 @@
 # advent-of-code-2018
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.org/adriennetacke/advent-of-code-2018.svg?branch=master)](https://travis-ci.org/adriennetacke/advent-of-code-2018) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 Advent of Code 2018 Solutions - Adrienne Style
 
