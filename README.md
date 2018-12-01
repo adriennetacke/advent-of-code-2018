@@ -1,4 +1,6 @@
 # advent-of-code-2018
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 Advent of Code 2018 Solutions - Adrienne Style
 
 ## What is Advent of Code?
