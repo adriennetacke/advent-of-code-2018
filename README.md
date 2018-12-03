@@ -20,7 +20,8 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | Day  | Part One | Part Two | 
 |---|:---:|:---:|
 |✔️ [Day 1: Chronal Calibration](https://github.com/adriennetacke/advent-of-code-2018/tree/master/day-1-chronal-calibration)  | ⭐️ | ⭐️ |
-
+|✔️ [Day 2: Inventory Management System](https://github.com/adriennetacke/advent-of-code-2018/tree/master/day-2-inventory-management-system)  | ⭐️ | ⭐️ |
+| Day 3: Inventory Management System  | 🕗 In progress  | 🕗 In progress  |
 
 ## Running Tests
 
