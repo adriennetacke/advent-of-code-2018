@@ -11,3 +11,13 @@ describe('Day Three Part One Overlap', () => {
     assert.strictEqual(overlap(input), 4);
   })
 })
+
+describe('Day Three Part Two No Overlap', () => {
+  it('should return claim id 3', () => {
+    let input =
+    `#1 @ 1,3: 4x4
+    #2 @ 3,1: 4x4
+    #3 @ 5,5: 2x2`;
+    assert.strictEqual(nonOverlap(input), 3);
+  })
+})
