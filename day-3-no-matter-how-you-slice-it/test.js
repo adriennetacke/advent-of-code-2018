@@ -1,4 +1,4 @@
-const assert = require('./assert');
+const assert = require('assert');
 const overlap = require('./overlap');
 const nonOverlap = require('./non-overlap');
 
