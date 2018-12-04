@@ -40,3 +40,10 @@ Visually, these claim the following areas:
 The four square inches marked with X are claimed by both 1 and 2. (Claim 3, while adjacent to the others, does not overlap either of them.)
 
 If the Elves all proceed with their own plans, none of them will have enough fabric. How many square inches of fabric are within two or more claims?
+
+## Part Two
+Amidst the chaos, you notice that exactly one claim doesn't overlap by even a single square inch of fabric with any other claim. If you can somehow draw attention to it, maybe the Elves will be able to make Santa's suit after all!
+
+For example, in the claims above, only claim 3 is intact after all claims are made.
+
+What is the ID of the only claim that doesn't overlap?
