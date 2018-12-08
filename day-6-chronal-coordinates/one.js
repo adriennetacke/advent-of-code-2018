@@ -5,8 +5,8 @@ const findManhattanDistance = (xOne, yOne, xTwo, yTwo) => {
 const findMaxCoordinate = (coordinateSet, coordinate) => {
   let coordinates = [];
 
-  for (let i = 0; i < coordinates.length; i++) {
-    let coordinatePair = coordinates[i];
+  for (let i = 0; i < coordinateSet.length; i++) {
+    let coordinatePair = coordinateSet[i];
     let matchGroups = coordinatePair.match(/(\d+), (\d+)/);
 
     if (coordinate === 'x') {
@@ -45,15 +45,28 @@ const findLargestArea = (input) => {
     grid[xCoordinate][yCoordinate] = 'X';
   };
 
-  console.log(grid);
-
-
   for (let i = 0; i < maxXCoordinate; i++) {
     let currentXCoordinate = i;
     for (let j = 0; j < maxYCoordinate; j++) {
       let currentYCoordinate = j;
 
-      grid[i][j]
+      if (grid[i][j] === 'X') {
+        continue;
+      }
+
+      for (let c = 0; c < coordinates.length; c++) {
+        let coordinatePair = coordinates[c];
+        let matchGroups = coordinatePair.match(/(\d+), (\d+)/);
+    
+        let xCoordinate =  matchGroups[1];
+        let yCoordinate =  matchGroups[2];
+
+        console.log("xone", i, "yone", j, "xtwo", xCoordinate, "ytwo", yCoordinate);
+        let distance = findManhattanDistance(i, j, xCoordinate, yCoordinate);
+        console.log('distance', distance);
+      }
+
+      // grid[i][j]
     }
   }
 
