@@ -25,7 +25,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 |✔️ [Day 4: Repose Record](https://github.com/adriennetacke/advent-of-code-2018/tree/master/day-4-repose-record) | ⭐ | ⭐ |
 |✔️ [Day 5: Alchemical Reduction](https://github.com/adriennetacke/advent-of-code-2018/tree/master/day-5-alchemical-reduction) | ⭐ | ⭐ |
 |✔️ [Day 6: Chronal Coordinates](https://github.com/adriennetacke/advent-of-code-2018/tree/master/day-6-chronal-coordinates) | ⭐ | ⭐ |
-| [Day 7: The Sum of Its Parts](https://github.com/adriennetacke/advent-of-code-2018/tree/master/day-7-the-sum-of-its-parts) | 🕗 In progress | 🕗 In progress  |
+| [Day 7: The Sum of Its Parts](https://github.com/adriennetacke/advent-of-code-2018/tree/master/day-7-the-sum-of-its-parts) | ⭐ | 🕗 In progress  |
 
 
 ## Running Tests
