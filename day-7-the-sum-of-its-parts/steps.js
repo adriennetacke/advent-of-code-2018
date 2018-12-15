@@ -41,49 +41,21 @@ const steps = (input) => {
     }
   }
 
-  // Start with parent-less steps
-  const orphanedCandidates = allSteps.filter(x => !x.parents.length);
-  let stagedSteps = new Set();
+  while (allSteps.length) {
+    let potentialStep = allSteps
+      .filter(x => !x.parents.length)
+      .map(y => y.step)
+      .sort()[0];
+    
+    finalOrder.push(potentialStep);
+    allSteps.splice(allSteps.indexOf(allSteps.find(x => x.step === potentialStep)), 1);
 
-  if (orphanedCandidates.length) {
-    orphanedCandidates.map(x => {
-      stagedSteps.add(x.step);
-    });
+    allSteps
+      .filter(a => a.parents.includes(potentialStep))
+      .forEach(y => y.parents.splice(y.parents.indexOf(potentialStep), 1));
   }
 
-  console.log(stagedSteps);
-
-  while (true) {
-    const sortedStagedSteps = [...stagedSteps].sort();
-    
-    let i = 0;
-    let potentialStep = allSteps.find(s => s.step === sortedStagedSteps[i]);
-    
-    if (!potentialStep.parents.length || potentialStep.parents.every(p => sortedStagedSteps.includes(x))) {
-      finalOrder.push(potentialStep.step);
-      stagedSteps.add(potentialStep.children);
-      stagedSteps.delete(potentialStep.step);
-      break;
-    } else if (potentialStep.parents.every(p => sortedStagedSteps.includes(x))) {
-      finalOrder.push(potentialStep.step);
-    };
-    
-    i++;
-
-  }
-
-
-
-  // Check for no parents or available steps
-    // Add all candidates to watchlist
-    // If more than one, sort alphabetically 
-    // Find first in alphabet, then add to final order
-  // Find children
-    // Add children to watchlist that don't exist yet
-  // Go through new watchlist alphabetically to find next likely step
-    // Find candidate's required parents
-    // Compare all required parents to available steps in watchlist
-  // Add next step
+  return finalOrder.join('');
 };
 
 module.exports = steps;
