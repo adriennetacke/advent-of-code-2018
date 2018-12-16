@@ -26,6 +26,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 |✔️ [Day 5: Alchemical Reduction](https://github.com/adriennetacke/advent-of-code-2018/tree/master/day-5-alchemical-reduction) | ⭐ | ⭐ |
 |✔️ [Day 6: Chronal Coordinates](https://github.com/adriennetacke/advent-of-code-2018/tree/master/day-6-chronal-coordinates) | ⭐ | ⭐ |
 | [Day 7: The Sum of Its Parts](https://github.com/adriennetacke/advent-of-code-2018/tree/master/day-7-the-sum-of-its-parts) | ⭐ | 🕗 In progress  |
+| [Day 8: Memory Maneuver ](https://github.com/adriennetacke/advent-of-code-2018/tree/master/day-8-memory-maneuver) | 🕗 In progress | 😅 Not Started  |
 
 
 ## Running Tests
